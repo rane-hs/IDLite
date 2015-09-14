@@ -228,7 +228,12 @@ def escape_reserved(w):
 
 RESERVED_WORDS = """
 abstract
+add
+alias
 as
+ascending
+async
+await
 base
 bool
 break
@@ -243,8 +248,10 @@ continue
 decimal
 default
 delegate
+descending
 do
 double
+dynamic
 else
 enum
 event
@@ -256,7 +263,11 @@ fixed
 float
 for
 foreach
+from
+get
+global
 goto
+group
 if
 implicit
 [in]
@@ -264,7 +275,10 @@ in
 int
 interface
 internal
+into
 is
+join
+let
 lock
 long
 namespace
@@ -272,18 +286,23 @@ new
 null
 object
 operator
+orderby
 [out]
 out
 override
 params
+partial
 private
 protected
 public
 readonly
 ref
+remove
 return
 sbyte
 sealed
+select
+set
 short
 sizeof
 stackalloc
@@ -302,7 +321,11 @@ unchecked
 unsafe
 ushort
 using
+value
+var
 virtual
 void
 volatile
+where
+yield
 """.split()
